@@ -1,0 +1,195 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Navigation */
+  nav {
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    color: white !important;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  #home img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #007bff;
+    margin-top: 20px;
+  }
+  
+  #home p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  
+  /* About Me Section */
+  #about {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-body h5 {
+    color: #007bff;
+    font-size: 1.4rem;
+  }
+  
+  .card-body p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Contact Form */
+  #contact {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form .form-control {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Simple Styling for Lists */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    #home h1 {
+      font-size: 2rem;
+    }
+  
+    #about p, #portfolio .card-body p {
+      font-size: 1rem;
+    }
+  
+    .card-body h5 {
+      font-size: 1.3rem;
+    }
+  }
+  
